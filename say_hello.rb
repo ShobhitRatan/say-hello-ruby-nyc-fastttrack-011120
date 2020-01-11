@@ -3,10 +3,10 @@ def say_hello()
   put "Hello Ruby Programmer!"
 end
 
-say_hello
+say_hello()
 
 def say_hello(name)
   put "Hello #{name}"
 end
 
-say_hello(Shobhit)
+say_hello("Gabriela")
